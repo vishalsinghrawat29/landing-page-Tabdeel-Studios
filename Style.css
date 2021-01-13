@@ -1,42 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
-body{
+body {
     font-family: 'Noto Sans', sans-serif;
 }
-:root{
+
+:root {
     --primary-color: #174972;
 }
 
-.bg-prm{
+.bg-prm {
     background-color: var(--primary-color);
 }
 
 
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand {
     color: white;
     font-weight: bolder;
 }
-.navbar-dark .navbar-brand:hover{
+
+.navbar-dark .navbar-brand:hover {
     color: white;
     font-weight: bolder;
 }
-.navbar-dark .navbar-nav .nav-link{
+
+.navbar-dark .navbar-nav .nav-link {
     color: rgb(214, 210, 210);
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-    color:white;
-}
-.navbar-dark .navbar-nav .nav-link.active{
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: white;
 }
 
-a.nav-link{
+.navbar-dark .navbar-nav .nav-link.active {
+    color: white;
+}
+
+a.nav-link {
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-.title{
+.title {
     color: white;
     background-color: var(--primary-color);
     text-align: center;
@@ -46,68 +51,73 @@ a.nav-link{
     padding: 0.5rem;
     width: 300px;
 }
-.txt{
-    color:var(--primary-color);
+
+.txt {
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 14px;
-    padding-top: 14px;   
+    padding-top: 14px;
 }
 
-.heading{
+.heading {
     color: white;
     background-color: var(--primary-color);
     text-align: center;
     font-weight: 600;
     font-size: 1.5rem;
     margin: auto;
-   
-    width:100%;
+
+    width: 100%;
 
 }
-.pin{
-    width:24px;
-   padding-top: 14px;
-   fill: #153A72;
+
+.pin {
+    width: 24px;
+    padding-top: 14px;
+    fill: #153A72;
 }
 
-.img{
+.img {
     width: 500px;
     height: 300px;
     overflow: hidden;
 }
-.box{
+
+.box {
     background-color: rgb(166, 199, 243);
     overflow-x: hidden;
 }
 
 
-.touch{
+.touch {
     background-color: var(--primary-color);
     color: white;
     border-radius: 20px;
     font-size: small;
     font-weight: bold;
 }
-.touch:hover{
-    background-color:white;
+
+.touch:hover {
+    background-color: white;
     color: var(--primary-color);
     border-radius: 20px;
     font-size: small;
     font-weight: bold;
 }
 
-.dis h1{
+.dis h1 {
     margin: auto;
-  width: 50%;
-  padding: 10px;
+    width: 50%;
+    padding: 10px;
 }
-.dis .txt1{
+
+.dis .txt1 {
     margin: auto;
     width: 60%;
 }
 
 
-.ftr{
+.ftr {
     background-color: var(--primary-color);
     color: white;
     padding: 2px;
@@ -116,25 +126,20 @@ a.nav-link{
 }
 
 
-.container-fluid{
+.container-fluid {
     padding: 0 !important;
 }
 
 
-
-
-
-.container-fluid{
+.container-fluid {
     overflow-x: hidden;
 }
 
-
-
-.keyimg img{
+.keyimg img {
     width: 150px;
 }
 
-.contact{
+.contact {
     width: 50%;
     margin: auto;
 }
